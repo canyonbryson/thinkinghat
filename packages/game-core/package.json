@@ -1,0 +1,20 @@
+{
+  "name": "@thinkinghat/game-core",
+  "version": "1.0.0",
+  "description": "Shared core game engine types and runtime (Convex-agnostic)",
+  "main": "./index.ts",
+  "types": "./index.ts",
+  "exports": {
+    ".": "./index.ts",
+    "./core": "./src/coreEngine.ts"
+  },
+  "scripts": {},
+  "packageManager": "pnpm@10.13.1",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "5.8.3"
+  }
+}
+
+

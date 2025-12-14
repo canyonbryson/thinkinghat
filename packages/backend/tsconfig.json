@@ -1,0 +1,11 @@
+{
+    "extends": "@thinkinghat/tsconfig/library",
+    "compilerOptions": {
+      "jsx": "react-jsx",
+      "strict": true,
+      "types": ["jest"]
+    },
+    "include": ["./**/*.ts", "./**/*.tsx"],
+    "exclude": ["node_modules"]
+  }
+  

@@ -1,0 +1,7 @@
+
+.env.local
+.expo
+
+.env
+
+node_modules

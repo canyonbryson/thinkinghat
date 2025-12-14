@@ -1,0 +1,30 @@
+{
+  "name": "@thinkinghat/ui",
+  "version": "1.0.0",
+  "description": "Shared UI components and theme system",
+  "main": "./index.ts",
+  "types": "./index.ts",
+  "exports": {
+    ".": "./index.ts",
+    "./theme": "./theme.ts",
+    "./context": "./ThemeContext.tsx",
+    "./components": "./components/index.ts",
+    "./game": "./game/index.ts"
+  },
+  "scripts": {},
+  "packageManager": "pnpm@10.13.1",
+  "author": "",
+  "license": "ISC",
+  "peerDependencies": {
+    "react": ">=18.0.0"
+  },
+  "dependencies": {
+    "@thinkinghat/i18n": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "react": "^19.0.0",
+    "typescript": "5.8.3"
+  }
+}
+

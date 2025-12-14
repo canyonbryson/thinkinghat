@@ -1,0 +1,15 @@
+{
+  "name": "@thinkinghat/i18n",
+  "version": "1.0.0",
+  "description": "Shared i18n translation package",
+  "main": "./index.ts",
+  "types": "./index.ts",
+  "scripts": {},
+  "packageManager": "pnpm@10.13.1",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "5.8.3"
+  }
+}
+

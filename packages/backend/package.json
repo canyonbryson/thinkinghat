@@ -1,0 +1,27 @@
+{
+  "name": "@thinkinghat/backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+
+  "scripts": {
+    "dev": "convex dev",
+    "codegen": "convex codegen",
+    "setup": "convex dev --until-success",
+    "seed:games": "convex run games:seedDefaultsInternal",
+    "seed:mumbled": "convex run mumbled:seedPuzzlesInternal",
+    "seed": "pnpm seed:games && pnpm seed:mumbled"
+  },
+  "packageManager": "pnpm@10.13.1",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "convex": "^1.25.2",
+    "openai": "^4.45.0"
+  },
+   "devDependencies": {
+    "typescript": "5.8.3",
+    "@types/node": "^24.2.1",
+    "tsx": "^4.20.6"
+  }
+}
